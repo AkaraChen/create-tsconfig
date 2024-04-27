@@ -1,0 +1,32 @@
+{
+    "name": "@akrc/create-tsconfig",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsup"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@akrc/tsconfig": "1.0.0",
+        "tslib": "^2.6.2",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "consola": "^3.2.3",
+        "execa": "^8.0.1",
+        "nypm": "^0.3.8"
+    },
+    "files": [
+        "dist",
+        "bin"
+    ],
+    "bin": {
+        "create-tsconfig": "bin/index.js"
+    }
+}
