@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-import { existsSync, readFileSync, writeFileSync } from 'fs'
-import { basename, join } from 'path'
 import consola from 'consola'
-import { detectPackageManager } from 'nypm'
 import { $ as $$ } from 'execa'
+import { existsSync, readFileSync, writeFileSync } from 'fs'
+import { detectPackageManager } from 'nypm'
+import { basename, join } from 'path'
 
 const $ = $$({ shell: true })
 
