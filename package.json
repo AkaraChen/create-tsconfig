@@ -3,8 +3,7 @@
     "scripts": {
         "fmt": "prettier --write .",
         "build": "pnpm -r build",
-        "bump": "bumpp",
-        "release": "pnpm fmt && pnpm build && pnpm bump && pnpm -r publish"
+        "bump": "bumpp"
     },
     "private": true,
     "devDependencies": {
