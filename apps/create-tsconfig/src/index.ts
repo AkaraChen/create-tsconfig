@@ -34,7 +34,7 @@ function isMonorepoRoot(path: string) {
 const cwd = process.cwd()
 const isRoot = isMonorepoRoot(cwd)
 
-if (!packageJson.devDependencies['@akrc/tsconfig']) {
+if (!packageJson.devDependencies?.['@akrc/tsconfig']) {
     const pm = await detectPackageManager(cwd)
     consola.info(`Detected package manager: ${pm?.name}`)
     switch (pm?.name) {

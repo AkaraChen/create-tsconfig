@@ -12,14 +12,14 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@akrc/tsconfig": "1.0.0",
+        "@akrc/tsconfig": "1.0.2",
         "tslib": "^2.6.2",
         "tsup": "^8.0.2",
         "typescript": "^5.4.5"
     },
     "dependencies": {
         "consola": "^3.2.3",
-        "execa": "^8.0.1",
+        "execa": "^9.3.0",
         "nypm": "^0.3.8"
     },
     "files": [
